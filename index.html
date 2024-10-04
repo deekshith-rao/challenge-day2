@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./login.css">
+</head>
+<body>
+ <div class="ima"><img  src="data:image/jpeg;base64,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" alt="img">
+</div> 
+  <div class="mt-5 p-1 con" style="display: flex; justify-content: center; align-items: center;">
+    <h1 style="color: rgb(70, 114, 152);">Registration Form</h1>
+  </div>
+  
+  <div class="container mt-5 ">
+    <form class="needs-validation" novalidate>
+      
+      <!-- First Name -->
+      <div class="form-group">
+        <label for="firstName">First Name</label>
+        <input type="text" class="form-control" id="firstName" required>
+        <div class="invalid-feedback">
+          Please provide your first name.
+        </div>
+      </div>
+
+      <!-- Last Name -->
+      <div class="form-group">
+        <label for="lastName">Last Name</label>
+        <input type="text" class="form-control" id="lastName" required>
+        <div class="invalid-feedback">
+          Please provide your last name.
+        </div>
+      </div>
+
+      <!-- Password -->
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" class="form-control" id="password" required>
+        <div class="invalid-feedback">
+          Please enter a password.
+        </div>
+      </div>
+
+      <!-- Phone Number -->
+      <div class="form-group">
+        <label for="phone">Phone Number</label>
+        <input type="number" class="form-control" id="phone" required minlength="8" maxlength="10">
+        <div class="invalid-feedback">
+          Please provide a valid phone number (8-10 digits).
+        </div>
+      </div>
+
+      <!-- Age -->
+      <div class="form-group">
+        <label for="age">Age</label>
+        <input type="number" class="form-control" id="age" required>
+        <div class="invalid-feedback">
+          Please provide your age.
+        </div>
+      </div>
+
+      <!-- Gender -->
+      <div class="form-group">
+        <label>Gender</label><br>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="gender" id="male" value="male" required>
+          <label class="form-check-label" for="male">Male</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="gender" id="female" value="female" required>
+          <label class="form-check-label" for="female">Female</label>
+        </div>
+        <div class="invalid-feedback d-block">
+          Please select your gender.
+        </div>
+      </div>
+
+      <!-- Address -->
+      <div class="form-group">
+        <label for="address">Address</label>
+        <textarea class="form-control" id="address" rows="2" required></textarea>
+        <div class="invalid-feedback">
+          Please provide your address.
+        </div>
+      </div>
+
+      <!-- City -->
+      <div class="form-group">
+        <label for="city">City</label>
+        <select class="form-control" id="city" required>
+          <option value="" disabled selected>Select your city</option>
+          <option value="Hyderabad">Hyderabad</option>
+          <option value="Other">Other</option>
+        </select>
+        <div class="invalid-feedback">
+          Please select your city.
+        </div>
+      </div>
+
+      <!-- Pincode -->
+      <div class="form-group">
+        <label for="pincode">Pincode</label>
+        <input type="number" class="form-control" id="pincode" required>
+        <div class="invalid-feedback">
+          Please provide your pincode.
+        </div>
+      </div>
+
+      <!-- Submit Button -->
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+
+  <!-- Bootstrap JS + jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- Custom JS for form validation -->
+  <script>
+    // Bootstrap form validation
+    (function() {
+      'use strict';
+      window.addEventListener('load', function() {
+        var forms = document.getElementsByClassName('needs-validation');
+        var validation = Array.prototype.filter.call(forms, function(form) {
+          form.addEventListener('submit', function(event) {
+            if (form.checkValidity() === false) {
+              event.preventDefault();
+              event.stopPropagation();
+            }
+            form.classList.add('was-validated');
+          }, false);
+        });
+      }, false);
+    })();
+  </script>
+
+</body>
+</html>
